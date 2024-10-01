@@ -1,0 +1,12 @@
+class Flower {
+  constructor(n, pos, scale, parent) {
+    this.n = n;
+    this.scale = scale;
+    this.pos = pos;
+    this.width = 40;
+    this.height = 40;
+    this.color = colors[~~(Math.random() * colors.length)];
+    this.parent = parent;
+    this.markup();
+  }
+}
